@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 export default function TipCalculator() {
   const [timeAtTable, setTimeAtTable] = useState<number | "">("");
